@@ -256,6 +256,7 @@ body{
  h3,h4, h5 {
     font-weight: bold;
     margin-bottom: 15px;
+	     color: white;
 }
 
 h3 {
