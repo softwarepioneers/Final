@@ -302,13 +302,12 @@
        <div class="row">
             <div class="col-xs-12">
                 <div class="text-center">
-<br><br>
+                <br><br>
                     <h3>Contact Us </h3>
                 </div>
                  <div class="text-center">
                      <h3 class="custom-paragraph ibrahim ibrahim1  ">
 				  Please feel free to email form below, if you need any further information about our products And services.Please let me know if you need any help.
-
 			 </h3>
                  </div>
            </div>
@@ -316,24 +315,25 @@
         <div class="row">
             <div class="container">
                 <div class="col-xs-12 col-md-7">
-                     
-                    <form id="contact-us" class="form">
-                       <h3>Email:</h3>
-                          
+                    <form action="https://formspree.io/f/xrgvdwdr"  method="post" id="contact-us" class="form">
+                       <h3>Email:</h3>   
                         <div class="form-group col-sm-6">
-                            
-                            <input type="text" name="name" placeholder="NAME" required class="form-control custom-form-control input-lg">
+                            <input type="text" name="NAME" id="name" autocomplete="off" placeholder="NAME" required class="form-control custom-form-control input-lg">
                         </div>
                         <div class="form-group col-sm-6">
-                            <input type="email" name="email" placeholder="EMAIL" required class="form-control custom-form-control input-lg">
+                            <input type="text" name="PHONE" id="phone" autocomplete="off" placeholder="PHONE" required class="form-control custom-form-control input-lg">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="text" name="SUBJECT" id="subject" autocomplete="off" placeholder="SUBJECT" required class="form-control custom-form-control input-lg">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input type="email" name="EMAIL" id="email" autocomplete="off" placeholder="EMAIL" required class="form-control custom-form-control input-lg">
                         </div>
                         <div class="form-group col-sm-12">
-                            <textarea name="message" required placeholder="MESSAGE" cols="30" rows="5" class="form-control custom-form-control input-lg"></textarea>
+                            <textarea name="MESSAGE" id="message" required autocomplete="off" placeholder="MESSAGE" cols="30" rows="5" class="form-control custom-form-control input-lg"></textarea>
                         </div>
-                        <div class="form-group col-sm-12">
-                            <button class="btn custom-btn btn-primary custom-btn-main">
-                                            SEND MESSAGE
-                                    </button>
+                        <div class="form-group col-sm-12 ">
+                            <input type="submit" value="submit" class="send-btn btn custom-btn btn-primary custom-btn-main">
                         </div>
                     </form>
                 </div>
@@ -441,11 +441,14 @@
     <script src="enjs/jquery-2.2.4.js"></script>
     <script src="enjs/bootstrap.js"></script>
     <script src="enjs/script.js"></script>
+
     <script>
         const d = new Date();
         let year = d.getFullYear();
         document.getElementById("demo").innerHTML = year;
-        </script>
+
+       
+    </script>
 </body>
 
 </html>
