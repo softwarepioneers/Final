@@ -10,7 +10,7 @@
     <meta name="Keywords" content="">
     <meta name="author" content="">
 
-    <title>SCHOOLS INFO</title>
+    <title>STUDENTS INFO</title>
     <link rel="stylesheet" href="encss/bootstrap.css">
     <link rel="stylesheet" href="encss/style.css">
     <link rel="stylesheet" href="encss/font-awesome.css">
@@ -55,14 +55,14 @@
 
                     <div id="navbar-collapsed-menu" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
+                            <li >
                                 <a href="index.html"> HOME</a>
                             </li>
 
                             <li >
                                 <a href="aboutus.html">PROJECTS</a>
                             </li>
-                            <li class="hidden-xs hidden-sm">
+                            <li class="hidden-xs hidden-sm active"">
                                 <a href="products.html">PRODUCTS</a>
                             </li>
                             <li>
@@ -306,61 +306,47 @@
         <div class="row">
             <div class="container">
 <div class="col-xs-12 text-center">
-                     <h3> School System </h3>
-                     <h3> Registration</h3>
+                     <h3> Course Registration</h3>
                 </div>
                 <div class="col-xs-12 col-md-12">
                     <form action="https://formspree.io/f/mpzengvd"  method="post" id="contact-us" class="form">
                         
                         <div class="form-group col-sm-4">
-                            <input type="text" name="SCHOOLNAME" id="schoolname" autocomplete="off" placeholder="SCHOOL NAME" required class="form-control custom-form-control input-lg">
+                            <input type="text" name="COURSE NAME" id="schoolname" autocomplete="off" placeholder="COURSE  NAME" required class="form-control custom-form-control input-lg">
                         </div>
 <div class="form-group col-sm-4">
-                              <select name="SCHOOLTYPE" id="schooltype" required class="form-control custom-form-control input-lg">
-                              <option value="">SCHOOL TYPE</option>
-                             <option value="KGS">KGS</option>
-                                  <option value="PRIS">PRIS</option>
-                                  <option value="PRES">PRES</option>
-                                    <option value="SECS">SECS</option>
-                           <option value="KGPRIS">KGPRIS</option>
-                         <option value="PRIPRES">PRIPRES</option>
-                               <option value="PRESECS">PRESECS</option>
- <option value="KGPRIPRES">KGPRIPRES</option>
- <option value="PRIPRESECS">PRIPRESECS</option>
- <option value="KGPRIPRESECS">KGPRIPRESECS</option>
- <option value="PRIVATE AIS">PRIVATE AIS</option>
- <option value="PUBLIC AIS">PUBLIC AIS</option>
- <option value="PRIVATE AUS">PRIVATE AUS</option>
- <option value="PUBLIC AUS">PUBLIC AUS</option>
- <option value="PUBLIC EMIS">PUBLIC EMIS</option>
- <option value="PRIVATE EMIS">PRIVATE EMIS</option>
-
-                              </select>
+                              <select name="COURSE TYPE" id="schooltype" required class="form-control custom-form-control input-lg">
+                              <option value="">COURSE  TYPE</option>
+                             <option value="KGS">PROGRAMMING WINDOWS</option>
+                                  <option value="PRIS">PROGRAMMING WEBSITES</option>
+                                  <option value="PRES">PROGRAMMING WEB</option>
+                                    <option value="SECS">PROGRAMMING MOBILE</option>
+                                  </select>
                         </div>
                      
 
 <div class="form-group col-sm-4">
-                            <input type="text" name="SCHOOLMANGER" id="schoolmanager" autocomplete="off" placeholder="SCHOOL MANGER" required class="form-control custom-form-control input-lg">
+                            <input type="text" name="STUDENT NAME" id="schoolmanager" autocomplete="off" placeholder="STUDENT NAME" required class="form-control custom-form-control input-lg">
                         </div>
                      
 
    <div class="form-group col-sm-4">
-                            <input type="text" name="SCHOOLPHONE" id="schoolphone" autocomplete="off" placeholder="SCHOOL PHONE" required class="form-control custom-form-control input-lg">
+                            <input type="text" name="STUDENT PHONE" id="schoolphone" autocomplete="off" placeholder="STUDENT PHONE" required class="form-control custom-form-control input-lg">
                         </div>
    <div class="form-group col-sm-4">
-                            <input type="text" name="SCHOOLWHATSAPP" id="schoolwhatsapp" autocomplete="off" placeholder="SCHOOL WHATSAPP" required class="form-control custom-form-control input-lg">
+                            <input type="text" name="STUDENT WHATSAPP" id="schoolwhatsapp" autocomplete="off" placeholder="STUDENT WHATSAPP" required class="form-control custom-form-control input-lg">
                         </div>
  <div class="form-group col-sm-4">
-                            <input type="email" name="SCHOOLEMAIL" id="email" autocomplete="off" placeholder="SCHOOL EMAIL" required class="form-control custom-form-control input-lg">
+                            <input type="email" name="STUDENT EMAIL" id="email" autocomplete="off" placeholder="STUDENT EMAIL" required class="form-control custom-form-control input-lg">
                         </div>
    <div class="form-group col-sm-4">
-                            <input type="text" name="SCHOOLADDRESS" id="schoollocation" autocomplete="off" placeholder="SCHOOL ADDRESS" required class="form-control custom-form-control input-lg">
+                            <input type="text" name="STUDENT ADDRESS" id="schoollocation" autocomplete="off" placeholder="STUDENT ADDRESS" required class="form-control custom-form-control input-lg">
                         </div>
 
 
    <div class="form-group col-sm-4">
-                              <select name="SCHOOLCONTRACT" id="schooltype" required class="form-control custom-form-control input-lg">
-                              <option value="">SCHOOL CONTRACT</option>
+                              <select name="STUDENT CONTRACT" id="schooltype" required class="form-control custom-form-control input-lg">
+                              <option value="">STUDENT CONTRACT</option>
                               <option value="NEW">NEW</option>
                               <option value="RENEWAL">RENEWAL</option>
                      
@@ -368,23 +354,26 @@
                               </select>
                         </div>
   <div class="form-group col-sm-4">
-                              <select name="SCHOOLSYLLABUS" id="schooltype" required class="form-control custom-form-control input-lg">
-                              <option value="">SCHOOL SYLLABUS</option>
-                              <option value="SOMALILANDSYLLABUS">SOMALILAND SYLLABUS</option>
-                              <option value="OTHER SYLLABUS">OTHER SYLLABUS</option>
+                              <select name="STUDENT SYLLABUS" id="schooltype" required class="form-control custom-form-control input-lg">
+                              <option value="">STUDENT SYLLABUS</option>
+                              <option value="VB">VB.NET</option>
+                              <option value="C">C#.NET</option>
+                              <option value="ASP">ASP.NET</option>
+                              <option value="PHP">PHP</option>
+                              <option value="WORDPRESS">WORDPRESS</option>
                              </select>
                         </div>
 
   <div class="form-group col-sm-4">
-                              <select name="SCHOOLCOUNTRY" id="schooltype" required class="form-control custom-form-control input-lg">
-                              <option value="">SCHOOL COUNTRY</option>
+                              <select name="STUDENT COUNTRY" id="schooltype" required class="form-control custom-form-control input-lg">
+                              <option value="">STUDENT COUNTRY</option>
                               <option value="SOMALILAND">SOMALILAND</option>
                       
                               </select>
                         </div>
   <div class="form-group col-sm-4">
-                              <select name="SCHOOLREGION" id="schooltype" required class="form-control custom-form-control input-lg">
-                              <option value="">SCHOOL REGION</option>
+                              <select name="STUDENT REGION" id="schooltype" required class="form-control custom-form-control input-lg">
+                              <option value="">STUDENT REGION</option>
                               <option value="MAROODIJEEX">MAROODIJEEX</option>
                               <option value="AWDAL">AWDAL</option>
                             <option value="SAAXIL">SAAXIL</option>
@@ -394,21 +383,22 @@
                               </select>
                         </div>
                       <div class="form-group col-sm-4 ">
-                              <select name="SCHOOLSUBJECT" id="schooltype" required class="form-control custom-form-control input-lg">
-                              <option value="">SCHOOL SUBJECT</option>
-                              <option value="SYSTEM">PRODUCT SYSTEM</option>
-                              <option value="SERVICE">SERVICE SYSTEM</option>
-                               <option value="SERVICE">CLOUD SERVICE</option>
+                              <select name="STUDENT SUBJECT" id="schooltype" required class="form-control custom-form-control input-lg">
+                              <option value="">STUDENT SUBJECT</option>
+                              <option value="WINDOWS">WINDOWS APPS</option>
+                              <option value="WEBSITES">WEBSITES</option>
+                               <option value="WEB">WEB APPS</option>
+                               <option value="MOBILE">MOBILE APPS</option>
                               </select>
                         </div>       
                 
                  
                         <div class="form-group col-sm-12">
-                            <textarea name="SCHOOLMESSAGE" id="schoolmessage" required autocomplete="off" placeholder="SCHOOL MESSAGE" cols="30" rows="5" class="form-control custom-form-control input-lg"></textarea>
+                            <textarea name="STUDENT MESSAGE" id="schoolmessage" required autocomplete="off" placeholder="STUDENT MESSAGE" cols="30" rows="5" class="form-control custom-form-control input-lg"></textarea>
                         </div>
                         <div class="form-group col-md-12 text-center ">
                        
-  <input type="submit" value="Register School" class="send-btn btn custom-btn btn-primary custom-btn-main">
+  <input type="submit" value="Register Student" class="send-btn btn custom-btn btn-primary custom-btn-main">
                             
                         </div>
                 </div>
